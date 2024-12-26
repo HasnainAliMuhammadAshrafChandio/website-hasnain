@@ -18,8 +18,8 @@ export default function Cart() {
             <h3>carts</h3>
           </div>
         </div>
-        {/* <div> */}
-        {/* </div> */}
+        {/* <div>1 */}
+        {/* </div> 2*/}
       </div>
 
       <div className="">
