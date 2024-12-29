@@ -66,7 +66,7 @@ export default function Cart() {
         </div>
       </div>
 
-      {/* Features Section */}
+      {/* Feature Section */}
       <div className="mt-10 flex justify-evenly items-center p-4 w-full h-[8rem] bg-[#F9F1E7]">
         <div className="text-center">
           <Image

@@ -163,7 +163,7 @@ export default function Products() {
         ))}
       </div>
 
-      {/* Show More Button */}
+      {/* Shows More Button */}
       {visibleCount < data.length && (
         <div className="flex items-center justify-center mt-8">
           <button

@@ -83,7 +83,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Footer Bottom Section */}
+        {/* Footers Bottom Section */}
         <div className="footer-bottom text-center py-4 bg-gray-200 text-gray-600">
           <hr className="mb-4 border-gray-300" />
           <p>2023 Funiro. All rights reserved</p>

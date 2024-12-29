@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <>
-      {/* Hero sections visibles only on desktop */}
+      {/* Heros sections visibles only on desktop */}
       <div className="relative heroImage hidden md:block">
         <Image
           src={"/image.png/Hero.png"}

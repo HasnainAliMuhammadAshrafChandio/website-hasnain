@@ -20,7 +20,7 @@ export default function Header() {
           />
         </div>
 
-        {/* Navigation Links */}
+        {/* Navigations Links */}
         <div className="navbtns hidden lg:block">
           <ul className="head flex space-x-6">
             <Link href={"/"}>

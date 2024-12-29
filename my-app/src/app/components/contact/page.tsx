@@ -35,7 +35,7 @@ export default function ContactPage() {
         </p>
       </div>
 
-      {/* Contact Information & Form */}
+      {/* Contacts Information & Form */}
       <div className="flex justify-evenly mt-6">
         {/* Contact Information */}
         <div className="w-[14rem]">
