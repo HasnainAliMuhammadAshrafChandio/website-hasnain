@@ -38,7 +38,7 @@ export default function ShopHero() {
 
   return (
     <>
-      {/* Shops Hero Section */}
+      {/* Shop Hero Section */}
       <div className="relative">
         <Image
           src="/image.png/Images (4).png"

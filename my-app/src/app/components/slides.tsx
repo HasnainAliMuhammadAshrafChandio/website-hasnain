@@ -20,7 +20,7 @@ export default function SlideSection() {
             src="/image.png/Sideinner.png" 
             alt="Sideinner" 
             width={250} 
-            height={250} // Add height for proper rendering
+            height={250} // Add height for proper renderings
             className="rounded-lg shadow-md"
           />
           <Image 

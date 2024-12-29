@@ -40,7 +40,7 @@ export default function SubHero() {
           <Image 
             src="/image.png/bedroom.png" 
             width={282} 
-            height={200} // Added height property
+            height={200} // Added heights property
             alt="Bedroom" 
             className="rounded-lg shadow-md"
           />
