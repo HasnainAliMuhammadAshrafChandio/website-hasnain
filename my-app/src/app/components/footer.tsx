@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <>
@@ -18,24 +20,24 @@ export default function Footer() {
             <h4 className="font-semibold text-lg mb-4">Navbar</h4>
             <ul className="space-y-2 text-gray-700">
               <li>
-                <a href="/" className="hover:text-gray-900">
-                  Home
-                </a>
+                <Link href="/" passHref>
+                  <a className="hover:text-gray-900">Home</a>
+                </Link>
               </li>
               <li>
-                <a href="/shop" className="hover:text-gray-900">
-                  Shop
-                </a>
+                <Link href="/shop" passHref>
+                  <a className="hover:text-gray-900">Shop</a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="hover:text-gray-900">
-                  About
-                </a>
+                <Link href="/about" passHref>
+                  <a className="hover:text-gray-900">About</a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-gray-900">
-                  Contact
-                </a>
+                <Link href="/contact" passHref>
+                  <a className="hover:text-gray-900">Contact</a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -45,19 +47,19 @@ export default function Footer() {
             <h4 className="font-semibold text-lg mb-4">Help</h4>
             <ul className="space-y-2 text-gray-700">
               <li>
-                <a href="/payment-options" className="hover:text-gray-900">
-                  Payment Option
-                </a>
+                <Link href="/payment-options" passHref>
+                  <a className="hover:text-gray-900">Payment Option</a>
+                </Link>
               </li>
               <li>
-                <a href="/returns" className="hover:text-gray-900">
-                  Returns
-                </a>
+                <Link href="/returns" passHref>
+                  <a className="hover:text-gray-900">Returns</a>
+                </Link>
               </li>
               <li>
-                <a href="/privacy-policies" className="hover:text-gray-900">
-                  Privacy Policies
-                </a>
+                <Link href="/privacy-policies" passHref>
+                  <a className="hover:text-gray-900">Privacy Policies</a>
+                </Link>
               </li>
             </ul>
           </div>
